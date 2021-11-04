@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hippo</title>
+    <style>
+        div {
+            width: 100px;
+            height: 250px;
+            background: darkseagreen;
+            }
+        .left_ear1 {
+            margin-right: 200px;
+            display: inline-block;
+            
+            border-top-left-radius: 100px;
+            border-top-right-radius: 190px;
+            transform: translateX(50px) translateY(50px);
+            }
+        .left_ear2 {
+            top: 30px;
+            position: absolute;
+            left: 24px;
+            width: 50px;
+            height: 200px;
+            display: inline-block;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 190px;
+            background: green;
+        }
+        .right_ear1 {
+            display: inline-block;
+            border-top-left-radius: 190px;
+            border-top-right-radius: 100px;
+            }
+        .right_ear2 {
+            top: 38px;
+            position: absolute;
+            left: 340px;
+            width: 50px;
+            height: 200px;
+            display: inline-block;
+            border-top-left-radius: 190px;
+            border-top-right-radius: 100px;
+            background: green;
+            }
+        .face1{
+            top: 100px;
+            left: 30px;
+            position: absolute;
+            width: 430px;
+            height: 480px;
+            background: darkseagreen;
+            border-top-left-radius: 60%;
+            border-top-right-radius: 60%;
+            border-bottom-left-radius: 30%;
+            border-bottom-right-radius: 30%;
+            }
+        .face2{
+            top: 250px;
+            position: absolute;
+            width: 480px;
+            height: 370px;
+            background: rgb(139, 179, 139);
+            border-top-left-radius: 60%;
+            border-top-right-radius: 60%;
+            border-bottom-left-radius: 30%;
+            border-bottom-right-radius: 30%;
+            }
+       .left_eye {
+          top: 100px;
+           width: 20px;
+           height: 20px;
+           border-radius: 100%;
+           position: absolute;
+           left: 180px;
+           background: black;
+            }
+       .right_eye {
+           top: 100px;
+           width: 20px;
+           height: 20px;
+           border-radius: 100%;
+           position: absolute;
+           background: black;
+           left: 250px;
+            }
+        .left_nostril{
+           position: absolute;
+            width: 40px;
+            height: 90px;
+            background: green;
+            border: darkseagreen 10px solid;
+            border-radius: 30px;
+            top: 160px;
+            left: 120px;
+        }
+        .right_nostril{
+           position: absolute;
+            width: 40px;
+            height: 90px;
+            background: green;
+            border: darkseagreen 10px solid;
+            border-radius: 30px;
+            top: 160px;
+            left: 300px;
+        }
+        .left_cheek {
+            position: absolute;
+            width: 123px;
+            height: 164px;
+            background: pink;
+            border-bottom-left-radius: 52%;
+            border-top-right-radius: 100%;
+            top: 206px;
+        }
+        .right_cheek {
+            position: absolute;
+            width: 123px;
+            height: 164px;
+            background: pink;
+            border-bottom-right-radius: 52%;
+            border-top-left-radius: 100%;
+            top: 206px;
+            left: 357px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="left_ear1">
+        <div class="left_ear2"></div>
+    </div>
+    <div class="right_ear1">
+        <div class="right_ear2"></div>
+    </div>
+    <div class="face1">
+        <div class="left_eye"></div>
+        <div class="right_eye"></div>
+    </div>
+    <div class="face2">
+        <div class="left_nostril"></div>
+        <div class="right_nostril"></div>
+        <div class="left_cheek"></div>
+        <div class="right_cheek"></div>
+    </div>
+    
+    
+</body>
+</html>
