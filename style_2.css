@@ -1,0 +1,184 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+
+
+main {
+    position: absolute;
+    width: 520px;
+    height: 712px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 188px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    border-bottom: #C4C4C4 1px solid;
+}
+ 
+h2 {
+    position: absolute;
+    width: 369px;
+    height: 24px;
+    left: 24px;
+    top: 85px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    }
+
+.input_txt,.input_pass{
+    position: absolute;
+    width: 472px;
+    height: 50px;
+    left: 24px;
+    top: 133px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 10px;
+    }
+
+.input_pass {
+    top: 193px;
+}
+
+.check_login {
+    position: absolute;
+    width: 111px;
+    height: 20px;
+    left: 58px;
+    top: 260px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #767676;
+    }
+
+.btn_login {
+    position: absolute;
+    width: 472px;
+    height: 50px;
+    left: 24px;
+    top: 301px;
+    background: #2F80ED;
+    border-radius: 5px;
+    border: none;
+}
+
+.join,.find {
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    left: 158px;
+    top: 371px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #767676;
+    text-decoration: none;
+}
+
+.find::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    border-left: 1px solid #767676;
+    width: 4px;
+    height: 18px;
+    position: absolute;
+    margin-left: -12px;
+}
+.find {
+    left: 238px;
+    width: 125px;
+    height: 18px;
+}
+
+.input_check {
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+}
+
+input[type="checkbox"]{display:none}
+input[type="checkbox"] + label span{
+    display:inline-block;
+    width:22px;
+    height:22px;
+    border: none;
+    vertical-align:middle;
+}
+
+input[type="checkbox"] + label span{
+    background:url('./un-check-box.png');
+    /* background-size:cover; */
+}
+input[type="checkbox"]:checked + label span{
+    background:url('./check-box.png');
+    /* background-size:cover; */
+}
+
+.ather_login .sns_face, .sns_google, .sns_naver, .sns_kakao {
+    position: absolute;
+    width: 472px;
+    height: 50px;
+    left: 24px;
+    text-decoration: none;
+    color: #767676;
+    border: 1px solid #767676;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+.ather_login .sns_google {
+    top: 457px;
+}
+
+.ather_login .sns_face {
+   top: 517px;
+}
+
+.ather_login .sns_naver {
+    top: 577px;
+ }
+
+ .ather_login .sns_kakao {
+    top: 637px;
+ }
+
+.ather_login a {
+    position: absolute;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
