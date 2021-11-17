@@ -4,27 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>font-1</title>
+    <title>grid-1</title>
     <style>
-        @font-face {
-        font-family: 'GmarketSansLight';
-        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+        .container-color {
+            background-color: cornsilk;
+            border: solid 3px black;
+            border-radius: 10px;
+            margin: 5px;
+            padding: 5px;
         }
 
-        :root {
-            --main-font: GmarketSansLight;
+        .item-color {
+            background-color: darkcyan;
+            border: solid 3px black;
+            border-radius: 10px;
+            margin: 5px;
+            padding: 5px;
         }
 
-        p {
-            font-family:  var(--main-font);
+        .container {
+            display: grid;
+            /* grid-template-columns: 200px 500px 200px; */
+            /* fr - fraction(분수) */
+            /* grid-template-columns: 1fr 2.5fr 1fr; */
+            grid-template-columns: 25% 50% 25%;
         }
+
+        /* 
+            그리드 트랙 : 행 또는 열
+            그리드 셀 : 한 칸
+            그리드 라인 : 셀 구분 선
+        */
     </style>
 </head>
 <body>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iste tempore odio, harum impedit placeat deserunt id, et consectetur dolore quisquam illum a nisi. Repellat velit eos soluta omnis deleniti.
-    </p>
+    <div class="container-color container">
+        <div class="item-color item">Lorem.</div>
+        <div class="item-color item">Lorem, ipsum.</div>
+        <div class="item-color item">Lorem, ipsum dolor.</div>
+        <div class="item-color item">Lorem ipsum dolor sit.</div>
+        <div class="item-color item">Lorem.</div>
+        <div class="item-color item">Lorem, ipsum.</div>
+        <div class="item-color item">Lorem, ipsum dolor.</div>
+        <div class="item-color item">Lorem ipsum dolor sit.</div>
+    </div>
 </body>
 </html>
